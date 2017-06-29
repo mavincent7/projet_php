@@ -8,7 +8,7 @@ echo outilsHTML::headerHtml();
 <div class="container">
     <h2 class="alert alert-success col-sm-6 col-sm-offset-3 text-center">Vous êtes connecté</h2><br/>
 
-    <a class="text-center col-sm-6 col-sm-offset-3" href="/ProjetPHP_Bootstrap/index.php?action=admin_accueil">Aller à l'accueil administrateur</a>
+    <a class="text-center col-sm-6 col-sm-offset-3" href="index.php?action=admin_accueil">Aller à l'accueil administrateur</a>
 </div>
 
 <?php

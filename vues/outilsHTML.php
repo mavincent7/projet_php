@@ -23,11 +23,11 @@ class outilsHTML {
         $headerCode = "<header>\n<h1><a href=\"index.php\">Spot Hi-Fi</a> </h1>\n<p>\n";
         $headerCode .= "</p>\n</header>";
         $headerCode .= "<ul class=\"nav nav-tabs\">";
-        $headerCode .= "<li role=\"presentation\"><a href=\"/ProjetPHP_Bootstrap/index.php\">Accueil</a></li>";
-        $headerCode .= "<li role=\"presentation\"><a href=\"/ProjetPHP_Bootstrap/index.php?action=admin_accueil\">Accueil Admin</a></li>";
-        $headerCode .= "<li role=\"presentation\"><a href=\"/ProjetPHP_Bootstrap/index.php?action=identification\">Identification</a></li>";
-        $headerCode .= "<li role=\"presentation\"><a href=\"/ProjetPHP_Bootstrap/index.php?action=deconnexion\">Déconnexion</a></li>";
-        $headerCode .= "<li role=\"presentation\"><a href=\"/ProjetPHP_Bootstrap/index.php?action=ajout\">Ajout</a></li>";
+        $headerCode .= "<li role=\"presentation\"><a href=\"index.php\">Accueil</a></li>";
+        $headerCode .= "<li role=\"presentation\"><a href=\"index.php?action=admin_accueil\">Accueil Admin</a></li>";
+        $headerCode .= "<li role=\"presentation\"><a href=\"index.php?action=identification\">Identification</a></li>";
+        $headerCode .= "<li role=\"presentation\"><a href=\"index.php?action=deconnexion\">Déconnexion</a></li>";
+        $headerCode .= "<li role=\"presentation\"><a href=\"index.php?action=ajout\">Ajout</a></li>";
         $headerCode .= "</ul>";
         return $headerCode;
     }
