@@ -1,0 +1,12 @@
+Connection à la base de données mysql :
+	- Login : root
+	- Mdp : mdp
+
+Connection en tant qu'admin sur le site :
+	- Login : admin
+	- Mdp : abcd1234
+
+Ajout d'une nouvelle musique :
+	La nouvelle musique avant d'être ajoutée doit être placée dans le fichier musiques.
+	Pour le chemin demandé lors de l'ajout, il doit être de la forme 'musiques/[nomdevotremusique].mp3'
+
